@@ -1,4 +1,5 @@
-[![MasterHead](https://hizliresim.com/7qcfehv)
+![kapak-8](https://github.com/ahmetonurevis/ahmetonurevis/assets/80480570/058c231d-e10a-4d84-8c8f-78e9efc2f45f)
+
 <h1 align="center">Hi 👋, I'm Ahmet Onur Evis</h1>
 <h3 align="center">A passionate Web developer from Turkey</h3>
 
