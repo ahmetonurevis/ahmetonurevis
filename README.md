@@ -1,4 +1,5 @@
-![kapak-8](https://github.com/ahmetonurevis/ahmetonurevis/assets/80480570/058c231d-e10a-4d84-8c8f-78e9efc2f45f)
+![software-dev](https://github.com/ahmetonurevis/ahmetonurevis/assets/80480570/8f62b110-6c96-4233-988d-17f1cca687d3)
+
 
 <h1 align="center">Hi 👋, I'm Ahmet Onur Evis</h1>
 <h3 align="center">A passionate Web developer from Turkey</h3>
