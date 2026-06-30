@@ -38,7 +38,7 @@
   <g font-family="Segoe UI, Arial, sans-serif">
     <text x="80" y="96" fill="#67e8f9" font-size="24" font-weight="700">FULL-STACK DEVELOPER</text>
     <text x="80" y="158" fill="#f8fafc" font-size="58" font-weight="800">Ahmet Onur EVIS</text>
-    <text x="82" y="205" fill="#cbd5e1" font-size="26">ERP • Web API • Dashboard • Automation</text>
+    <text x="82" y="205" fill="#cbd5e1" font-size="26">Backend • Web API • Frontend • Database</text>
     <text x="82" y="254" fill="#94a3b8" font-size="20">Node.js / TypeScript / .NET / SQL Server / PostgreSQL</text>
     <rect x="82" y="284" width="256" height="42" rx="21" fill="#0ea5e9" opacity="0.18" stroke="#38bdf8"/>
     <text x="108" y="312" fill="#e0f2fe" font-size="18" font-weight="700">github.com/ahmetonurevis</text>

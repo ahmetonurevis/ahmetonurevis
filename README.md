@@ -4,10 +4,10 @@
 
 # 👋 Merhaba, ben Ahmet Onur EVİS
 
-**Bilgisayar Mühendisi · Full-Stack Developer · ERP & Operasyonel Sistemler**
+**Bilgisayar Mühendisi · Full-Stack Developer · Backend & Web Technologies**
 
-İş süreçlerini dijitale taşıyan; stok, teklif, üretim, randevu, CRM ve yönetim panelleri geliştiren bir yazılım geliştiriciyim.  
-Backend mimarisi, veritabanı tasarımı, modern web arayüzleri ve gerçek iş akışlarını sadeleştiren uygulamalar üzerine çalışıyorum.
+Backend mimarisi, veritabanı tasarımı, modern web arayüzleri ve yönetilebilir uygulama yapıları üzerine çalışıyorum.  
+API geliştirme, admin paneli, dashboard, frontend ve full-stack ürün geliştirme konularına odaklanıyorum.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ahmetonurevis&style=for-the-badge&color=0ea5e9)
 ![Followers](https://img.shields.io/github/followers/ahmetonurevis?style=for-the-badge&logo=github&color=181717)
@@ -20,9 +20,9 @@ Backend mimarisi, veritabanı tasarımı, modern web arayüzleri ve gerçek iş 
 ## 🚀 Kısa Profil
 
 - 🧠 Backend, veritabanı ve API mimarisi tarafında güçlü sistemler kuruyorum.
-- 🏭 ERP, stok/depo, teklif/RFQ, üretim ve operasyon yönetimi projeleri geliştiriyorum.
-- 🧩 Full-stack tarafta dashboard, admin paneli, web arayüzü ve mobil yardımcı uygulamalar üretiyorum.
-- 📊 Raporlama, rol/yetki yönetimi, QR/barkod akışları ve süreç otomasyonunu seviyorum.
+- 🧩 Full-stack tarafta dashboard, admin paneli, web arayüzü ve mobil yardımcı uygulamalar geliştiriyorum.
+- 🎨 Frontend tarafında sade, hızlı ve kullanılabilir ekranlar kurmaya çalışıyorum.
+- 🔐 Rol/yetki, validasyon, raporlama ve dokümantasyon konularına önem veriyorum.
 - 📚 Proje tesliminden sonra README, kurulum ve bakım notlarını ihmal etmiyorum.
 
 ## 🧱 Teknoloji Yığını
@@ -55,15 +55,15 @@ Backend mimarisi, veritabanı tasarımı, modern web arayüzleri ve gerçek iş 
 | **Mobil & Cihaz** | Capacitor, Android, ESP8266, Arduino |
 | **Araçlar** | Git, GitHub, Swagger, PM2, Nginx, Redis |
 
-## ⚡ Odak Alanlarım
+## ⚡ Teknik Odaklarım
 
 ```text
-ERP & Üretim Yönetimi      ████████████████████
-Stok / Depo / Barkod       ██████████████████░░
-B2B Teklif & RFQ           █████████████████░░░
-Admin Panel & Dashboard    ███████████████████░
+Node.js API                ███████████████████░
+Web Frontend               ██████████████████░░
 ASP.NET MVC/Core           ████████████████░░░░
-Node.js API                ██████████████████░░
+Database Design            ██████████████████░░
+Admin Panel & Dashboard    ███████████████████░
+Full-Stack Architecture    █████████████████░░░
 ```
 
 ## 📌 Öne Çıkan Public Projeler
