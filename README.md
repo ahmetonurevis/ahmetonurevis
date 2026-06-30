@@ -4,11 +4,11 @@
 
 # 👋 Merhaba, ben Ahmet Onur EVİS
 
-**Bilgisayar Mühendisi · Full-Stack Developer · Backend & Web Technologies**
+**Bilgisayar Mühendisi · IT Operations · Full-Stack & IoT Solutions**
 
-Backend mimarisi, veritabanı tasarımı ve modern web arayüzleri üzerine çalışan bir full-stack geliştiriciyim.  
-Ölçeklenebilir REST API'ler, yönetilebilir admin panelleri, anlaşılır dashboard deneyimleri ve sürdürülebilir frontend yapıları geliştiriyorum.  
-Kod yazarken yalnızca çalışan bir ürün çıkarmaya değil; okunabilir mimari, güvenli veri akışı, doğru yetkilendirme, temiz dokümantasyon ve uzun vadede bakımı kolay sistemler oluşturmaya odaklanıyorum.
+Teknoloji süreçlerini stratejik bir bakış açısıyla yöneten ve yüksek performanslı çözümler üreten bir Bilgisayar Mühendisiyim.  
+Kurumsal IT operasyonlarına liderlik etmenin yanı sıra yazılım ve donanımın kesiştiği noktalarda; IoT sistemleri, endüstriyel otomasyon, web tabanlı yönetim panelleri ve özel entegrasyonlar geliştiriyorum.  
+Benim için mühendislik yalnızca günü kurtaran bir ürün ortaya koymak değil; temiz bir mimari kurgulamak, veri güvenliğini uçtan uca sağlamak ve gelecekteki büyümelere kolayca adapte olabilen sürdürülebilir sistemler kurmaktır.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ahmetonurevis&style=for-the-badge&color=0ea5e9)
 ![Followers](https://img.shields.io/github/followers/ahmetonurevis?style=for-the-badge&logo=github&color=181717)
@@ -20,11 +20,11 @@ Kod yazarken yalnızca çalışan bir ürün çıkarmaya değil; okunabilir mima
 
 ## 🚀 Kısa Profil
 
-- 🧠 Backend, veritabanı ve API mimarisi tarafında güçlü sistemler kuruyorum.
-- 🧩 Full-stack tarafta dashboard, admin paneli, web arayüzü ve mobil yardımcı uygulamalar geliştiriyorum.
-- 🎨 Frontend tarafında sade, hızlı ve kullanılabilir ekranlar kurmaya çalışıyorum.
-- 🔐 Rol/yetki, validasyon, raporlama ve dokümantasyon konularına önem veriyorum.
-- 📚 Proje tesliminden sonra README, kurulum ve bakım notlarını ihmal etmiyorum.
+- 🧠 Kurumsal IT operasyonları, sistem sürekliliği ve teknik süreç yönetimi üzerine çalışıyorum.
+- 🧩 Full-stack tarafta API, dashboard, admin paneli, web arayüzü ve özel entegrasyonlar geliştiriyorum.
+- 🔌 Yazılım ve donanımın kesiştiği IoT, cihaz bağlantısı ve otomasyon senaryolarıyla ilgileniyorum.
+- 🔐 Güvenli veri akışı, rol/yetki yönetimi, validasyon ve sürdürülebilir mimari konularına önem veriyorum.
+- 📚 Teslim edilen projelerde dokümantasyon, kurulum ve bakım süreçlerini ürünün bir parçası olarak görüyorum.
 
 ## 🧱 Teknoloji Yığını
 
