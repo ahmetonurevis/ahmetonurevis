@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-label="Ahmet Onur EVIS - Full-Stack Developer">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="340" viewBox="0 0 1200 340" fill="none"
+     role="img" aria-label="Ahmet Onur EVIS - Full-Stack Developer, IT Operations, IoT">
   <title>Ahmet Onur EVİS — Full-Stack Developer · IT Operations · IoT</title>
 
   <defs>
@@ -23,7 +25,7 @@
     </linearGradient>
 
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feGaussianBlur stdDeviation="6" result="b"/>
       <feColorMatrix in="b" type="matrix"
         values="0 0 0 0 0.22  0 0 0 0 0.74  0 0 0 0 1  0 0 0 0.9 0"/>
       <feBlend in="SourceGraphic" mode="screen"/>
@@ -31,23 +33,30 @@
 
     <clipPath id="card"><rect x="0" y="0" width="1200" height="340" rx="30"/></clipPath>
 
-    <!-- Sirayla acilip kapanan yazi maskeleri (12sn dongu, her rol 4sn) -->
+    <path id="wavePath"
+          d="M60 268C190 208 300 316 430 252C560 188 640 176 760 228C880 280 980 236 1140 158"/>
+
+    <!--
+      Rol yazisi maskeleri: 12sn dongu, her rol 4sn.
+      t=0 aninda A tam acik, B ve C kapali. Boylece animasyon calismasa bile
+      banner eksiksiz bir kare gosterir.
+    -->
     <clipPath id="typeA">
-      <rect x="70" y="178" width="560" height="32">
+      <rect x="70" y="176" width="580" height="34">
         <animate attributeName="width" dur="12s" repeatCount="indefinite"
-                 values="0;560;560;0;0" keyTimes="0;0.042;0.300;0.333;1"/>
+                 values="580;580;0;0;580" keyTimes="0;0.300;0.333;0.958;1"/>
       </rect>
     </clipPath>
     <clipPath id="typeB">
-      <rect x="70" y="178" width="0" height="32">
+      <rect x="70" y="176" width="0" height="34">
         <animate attributeName="width" dur="12s" repeatCount="indefinite"
-                 values="0;0;560;560;0;0" keyTimes="0;0.333;0.375;0.633;0.667;1"/>
+                 values="0;0;580;580;0;0" keyTimes="0;0.333;0.375;0.633;0.667;1"/>
       </rect>
     </clipPath>
     <clipPath id="typeC">
-      <rect x="70" y="178" width="0" height="32">
+      <rect x="70" y="176" width="0" height="34">
         <animate attributeName="width" dur="12s" repeatCount="indefinite"
-                 values="0;0;560;560;0" keyTimes="0;0.667;0.708;0.967;1"/>
+                 values="0;0;580;580;0" keyTimes="0;0.667;0.708;0.967;1"/>
       </rect>
     </clipPath>
   </defs>
@@ -63,17 +72,19 @@
     </g>
 
     <circle cx="1010" cy="70" r="150" fill="#2563eb" opacity="0.16">
-      <animate attributeName="opacity" values="0.10;0.26;0.10" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.16;0.26;0.16" dur="7s" repeatCount="indefinite"/>
     </circle>
     <circle cx="120" cy="290" r="120" fill="#22c55e" opacity="0.12">
-      <animate attributeName="opacity" values="0.08;0.20;0.08" dur="9s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.12;0.20;0.12" dur="9s" begin="-1.5s" repeatCount="indefinite"/>
     </circle>
 
-    <path d="M60 268C190 208 300 316 430 252C560 188 640 176 760 228C880 280 980 236 1140 158"
-          stroke="url(#wave)" stroke-width="4.5" stroke-linecap="round"
-          stroke-dasharray="1800" stroke-dashoffset="0" filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset" from="1800" to="0" dur="4.5s" fill="freeze"/>
-    </path>
+    <!-- dalga: her zaman gorunur, uzerinde gezen bir isik noktasi ile -->
+    <use xlink:href="#wavePath" stroke="url(#wave)" stroke-width="4.5" stroke-linecap="round" filter="url(#glow)"/>
+    <circle r="5" fill="#e0f2fe" opacity="0.9" filter="url(#glow)">
+      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#wavePath"/>
+      </animateMotion>
+    </circle>
 
     <g fill="#38bdf8">
       <circle cx="640" cy="96" r="3" opacity="0.55">
@@ -82,10 +93,10 @@
       <circle cx="690" cy="60" r="2" opacity="0.40">
         <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="7s" begin="-2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="600" cy="300" r="2.5" opacity="0.45">
+      <circle cx="600" cy="302" r="2.5" opacity="0.45">
         <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="6.5s" begin="-4s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="1150" cy="250" r="3" opacity="0.35">
+      <circle cx="1160" cy="250" r="3" opacity="0.35">
         <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="8s" begin="-1s" repeatCount="indefinite"/>
       </circle>
       <circle cx="40" cy="120" r="2.5" opacity="0.40">
@@ -94,52 +105,30 @@
     </g>
 
     <!-- terminal karti -->
-    <g opacity="1">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;1" dur="1.4s" fill="freeze"/>
-      <rect x="700" y="62" width="452" height="216" rx="14" fill="#0f172a" fill-opacity="0.92" stroke="#1e293b"/>
-      <rect x="700" y="62" width="452" height="34" rx="14" fill="#1e293b" fill-opacity="0.7"/>
-      <rect x="700" y="86" width="452" height="10" fill="#1e293b" fill-opacity="0.7"/>
+    <g>
+      <rect x="700" y="62" width="452" height="216" rx="14" fill="#0f172a" fill-opacity="0.94" stroke="#1e293b"/>
+      <rect x="700" y="62" width="452" height="34" rx="14" fill="#1e293b" fill-opacity="0.75"/>
+      <rect x="700" y="86" width="452" height="10" fill="#1e293b" fill-opacity="0.75"/>
       <circle cx="722" cy="79" r="5" fill="#ef4444"/>
       <circle cx="740" cy="79" r="5" fill="#f59e0b"/>
       <circle cx="758" cy="79" r="5" fill="#22c55e"/>
       <text x="784" y="84" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">ahmetonurevis — zsh</text>
 
       <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">
-        <text x="722" y="128" fill="#e2e8f0" opacity="1">
-          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.20;0.30" dur="5s" fill="freeze"/>
-          <tspan fill="#22c55e">$</tspan> npm run dev
-        </text>
-        <text x="722" y="156" fill="#94a3b8" opacity="1">
-          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.38;0.48" dur="5s" fill="freeze"/>
-          <tspan fill="#22c55e">✔</tspan> api      ready on :4000
-        </text>
-        <text x="722" y="184" fill="#94a3b8" opacity="1">
-          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.56;0.66" dur="5s" fill="freeze"/>
-          <tspan fill="#22c55e">✔</tspan> web      ready on :3000
-        </text>
-        <text x="722" y="212" fill="#94a3b8" opacity="1">
-          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.72;0.82" dur="5s" fill="freeze"/>
-          <tspan fill="#22c55e">✔</tspan> iot      12 device online
-        </text>
-        <text x="722" y="246" fill="#67e8f9" opacity="1">
-          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.88;0.98" dur="5s" fill="freeze"/>
-          → hepsi hazır, kahve zamanı ☕
-        </text>
+        <text x="722" y="128" fill="#e2e8f0"><tspan fill="#22c55e">$</tspan> npm run dev</text>
+        <text x="722" y="156" fill="#94a3b8"><tspan fill="#22c55e">✔</tspan> api    ready on :4000</text>
+        <text x="722" y="184" fill="#94a3b8"><tspan fill="#22c55e">✔</tspan> web    ready on :3000</text>
+        <text x="722" y="212" fill="#94a3b8"><tspan fill="#22c55e">✔</tspan> iot    12 device online</text>
+        <text x="722" y="246" fill="#67e8f9">→ hepsi hazır, kahve zamanı ☕<tspan fill="#67e8f9" font-weight="700">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
       </g>
     </g>
 
     <!-- sol metin blogu -->
     <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
-      <text x="70" y="86" fill="#67e8f9" font-size="17" font-weight="700" letter-spacing="3.4" opacity="1"
-            font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.15;1" dur="1s" fill="freeze"/>
-        &#62; whoami
-      </text>
+      <text x="70" y="86" fill="#67e8f9" font-size="17" font-weight="700" letter-spacing="3.4"
+            font-family="ui-monospace, SFMono-Regular, Consolas, monospace">&#62; whoami</text>
 
-      <text x="70" y="146" fill="#f8fafc" font-size="52" font-weight="800" opacity="1">
-        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.25;1" dur="1.2s" fill="freeze"/>
-        Ahmet Onur EVİS
-      </text>
+      <text x="70" y="146" fill="#f8fafc" font-size="52" font-weight="800">Ahmet Onur EVİS</text>
 
       <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="21" fill="#cbd5e1">
         <g clip-path="url(#typeA)">
@@ -153,13 +142,11 @@
         </g>
       </g>
 
-      <g opacity="1">
-        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;1" dur="1.4s" fill="freeze"/>
-        <text x="70" y="242" fill="#64748b" font-size="16">TypeScript · Node.js · .NET · React &#38; Vue · PostgreSQL · ESP8266</text>
-        <rect x="70" y="264" width="252" height="38" rx="19" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.6"/>
-        <text x="94" y="289" fill="#e0f2fe" font-size="15" font-weight="700"
-              font-family="ui-monospace, SFMono-Regular, Consolas, monospace">github.com/ahmetonurevis</text>
-      </g>
+      <text x="70" y="242" fill="#64748b" font-size="16">TypeScript · Node.js · .NET · React &#38; Vue · PostgreSQL · ESP8266</text>
+
+      <rect x="70" y="264" width="252" height="38" rx="19" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="94" y="289" fill="#e0f2fe" font-size="15" font-weight="700"
+            font-family="ui-monospace, SFMono-Regular, Consolas, monospace">github.com/ahmetonurevis</text>
     </g>
 
     <rect x="0" y="0" width="240" height="340" fill="url(#sheen)" transform="translate(-260 0)">
