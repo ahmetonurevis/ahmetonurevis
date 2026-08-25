@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Ahmet Onur EVİS — Full-Stack Developer" width="100%">
+<img src="./assets/banner-v3.svg" alt="Ahmet Onur EVİS — Full-Stack Developer" width="100%">
 
 <a href="https://github.com/ahmetonurevis">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=45&lines=Kurumsal+IT+operasyonlar%C4%B1n%C4%B1+y%C3%B6netiyorum;Node.js+ve+.NET+ile+backend+kuruyorum;React+%26+Vue+ile+aray%C3%BCz+geli%C5%9Ftiriyorum;ESP8266+ile+cihazlar%C4%B1+konu%C5%9Fturuyorum;Ve+evet%2C+dok%C3%BCmantasyonu+da+yaz%C4%B1yorum+%3AD" alt="Ne yapıyorum?">
