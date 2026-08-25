@@ -33,8 +33,9 @@
 
     <clipPath id="card"><rect x="0" y="0" width="1200" height="340" rx="30"/></clipPath>
 
+    <!-- Metin bloklarinin altindan gecen akis cizgisi -->
     <path id="wavePath"
-          d="M60 268C190 208 300 316 430 252C560 188 640 176 760 228C880 280 980 236 1140 158"/>
+          d="M-20 322C120 306 240 334 400 324C560 314 660 332 820 322C960 313 1060 324 1160 302C1200 293 1215 287 1230 282"/>
 
     <!--
       Rol yazisi maskeleri: 12sn dongu, her rol 4sn.
@@ -79,7 +80,7 @@
     </circle>
 
     <!-- dalga: her zaman gorunur, uzerinde gezen bir isik noktasi ile -->
-    <use xlink:href="#wavePath" stroke="url(#wave)" stroke-width="4.5" stroke-linecap="round" filter="url(#glow)"/>
+    <use xlink:href="#wavePath" stroke="url(#wave)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
     <circle r="5" fill="#e0f2fe" opacity="0.9" filter="url(#glow)">
       <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
         <mpath xlink:href="#wavePath"/>
