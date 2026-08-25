@@ -404,7 +404,7 @@ Bir fikrin mi var, bir sorun mu var, yoksa sadece merhaba mı demek istiyorsun? 
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-ahmetonurevis-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmetonurevis)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmet%20Onur%20EV%C4%B0S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/search/results/all/?keywords=Ahmet%20Onur%20EV%C4%B0S)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmet%20Onur%20EV%C4%B0S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmetonurevis/)
 
 <br>
 
