@@ -403,8 +403,28 @@ Bir fikrin mi var, bir sorun mu var, yoksa sadece merhaba mı demek istiyorsun? 
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-ahmetonurevis-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmetonurevis)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmet%20Onur%20EV%C4%B0S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmetonurevis/)
+<table>
+  <tr>
+    <td align="center" width="300">
+      <a href="https://github.com/ahmetonurevis">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+      </a>
+      <br><br>
+      <a href="https://github.com/ahmetonurevis"><b>@ahmetonurevis</b></a>
+      <br>
+      <sub>Kod, projeler ve açık kaynak</sub>
+    </td>
+    <td align="center" width="300">
+      <a href="https://www.linkedin.com/in/ahmetonurevis/">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+      <br><br>
+      <a href="https://www.linkedin.com/in/ahmetonurevis/"><b>Ahmet Onur EVİS</b></a>
+      <br>
+      <sub>Deneyim, iletişim ve iş birliği</sub>
+    </td>
+  </tr>
+</table>
 
 <br>
 
