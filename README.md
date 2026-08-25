@@ -278,6 +278,20 @@ flowchart TD
 
 </details>
 
+### 🐍 Yılan katkılarımı yiyor
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmetonurevis/ahmetonurevis/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmetonurevis/ahmetonurevis/output/github-snake.svg">
+  <img src="https://raw.githubusercontent.com/ahmetonurevis/ahmetonurevis/output/github-snake.svg" alt="Katkı grafiğimi yiyen yılan animasyonu" width="100%">
+</picture>
+
+<sub><i>Her gece 07:00'de (TR) bir GitHub Action bu animasyonu yeniden üretiyor.</i></sub>
+
+</div>
+
 ---
 
 ## 📌 Vitrin

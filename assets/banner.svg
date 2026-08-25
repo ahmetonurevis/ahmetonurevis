@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-label="Ahmet Onur EVIS - Full-Stack Developer">
-  <title>Ahmet Onur EVİS — Full-Stack Developer</title>
+  <title>Ahmet Onur EVİS — Full-Stack Developer · IT Operations · IoT</title>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
@@ -18,7 +18,7 @@
 
     <linearGradient id="sheen" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
 
@@ -31,59 +31,25 @@
 
     <clipPath id="card"><rect x="0" y="0" width="1200" height="340" rx="30"/></clipPath>
 
-    <clipPath id="typeA"><rect class="rev revA" x="70" y="176" width="520" height="34"/></clipPath>
-    <clipPath id="typeB"><rect class="rev revB" x="70" y="176" width="520" height="34"/></clipPath>
-    <clipPath id="typeC"><rect class="rev revC" x="70" y="176" width="520" height="34"/></clipPath>
-
-    <style>
-      .rev { transform-box: fill-box; transform-origin: left center; }
-      @keyframes reveal {
-         0%   { transform: scaleX(0); }
-        14%   { transform: scaleX(1); }
-        30%   { transform: scaleX(1); }
-        34%   { transform: scaleX(0); }
-       100%   { transform: scaleX(0); }
-      }
-      .revA { animation: reveal 12s linear infinite;  }
-      .revB { animation: reveal 12s linear infinite 4s; }
-      .revC { animation: reveal 12s linear infinite 8s; }
-
-      @keyframes blink { 0%,45% { opacity: 1 } 50%,95% { opacity: 0 } 100% { opacity: 1 } }
-      .cursor { animation: blink 1.1s steps(1) infinite; }
-
-      @keyframes draw { to { stroke-dashoffset: 0; } }
-      .wave { stroke-dasharray: 1800; stroke-dashoffset: 1800; animation: draw 4.5s ease-out forwards; }
-
-      @keyframes breathe { 0%,100% { opacity: .10 } 50% { opacity: .26 } }
-      .orb1 { animation: breathe 7s ease-in-out infinite; }
-      .orb2 { animation: breathe 9s ease-in-out infinite 1.5s; }
-
-      @keyframes sweep { 0% { transform: translateX(-260px) } 100% { transform: translateX(1210px) } }
-      .sheen { animation: sweep 8s ease-in-out infinite; }
-
-      @keyframes rise { 0% { opacity:0; transform: translateY(14px) } 100% { opacity:1; transform: translateY(0) } }
-      .in1 { opacity:0; animation: rise .7s ease-out .1s forwards; }
-      .in2 { opacity:0; animation: rise .7s ease-out .3s forwards; }
-      .in3 { opacity:0; animation: rise .7s ease-out .5s forwards; }
-
-      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-9px) } }
-      .dot { animation: float 6s ease-in-out infinite; }
-
-      @keyframes logline { 0%,4% { opacity:0 } 12%,90% { opacity:1 } 100% { opacity:1 } }
-      .l1 { opacity:0; animation: logline 9s linear infinite 0.2s; }
-      .l2 { opacity:0; animation: logline 9s linear infinite 1.1s; }
-      .l3 { opacity:0; animation: logline 9s linear infinite 2.0s; }
-      .l4 { opacity:0; animation: logline 9s linear infinite 2.9s; }
-      .l5 { opacity:0; animation: logline 9s linear infinite 3.8s; }
-
-      @media (prefers-reduced-motion: reduce) {
-        .revA,.revB,.revC,.cursor,.wave,.orb1,.orb2,.sheen,.in1,.in2,.in3,.dot,
-        .l1,.l2,.l3,.l4,.l5 { animation: none; }
-        .rev { transform: scaleX(1); }
-        .wave { stroke-dashoffset: 0; }
-        .in1,.in2,.in3,.l1,.l2,.l3,.l4,.l5 { opacity: 1; }
-      }
-    </style>
+    <!-- Sirayla acilip kapanan yazi maskeleri (12sn dongu, her rol 4sn) -->
+    <clipPath id="typeA">
+      <rect x="70" y="178" width="560" height="32">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+                 values="0;560;560;0;0" keyTimes="0;0.042;0.300;0.333;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeB">
+      <rect x="70" y="178" width="0" height="32">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+                 values="0;0;560;560;0;0" keyTimes="0;0.333;0.375;0.633;0.667;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeC">
+      <rect x="70" y="178" width="0" height="32">
+        <animate attributeName="width" dur="12s" repeatCount="indefinite"
+                 values="0;0;560;560;0" keyTimes="0;0.667;0.708;0.967;1"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#card)">
@@ -96,22 +62,40 @@
       <path d="M600 0V340"/><path d="M750 0V340"/><path d="M900 0V340"/><path d="M1050 0V340"/>
     </g>
 
-    <circle class="orb1" cx="1010" cy="70" r="150" fill="#2563eb"/>
-    <circle class="orb2" cx="120" cy="290" r="120" fill="#22c55e"/>
+    <circle cx="1010" cy="70" r="150" fill="#2563eb" opacity="0.16">
+      <animate attributeName="opacity" values="0.10;0.26;0.10" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="290" r="120" fill="#22c55e" opacity="0.12">
+      <animate attributeName="opacity" values="0.08;0.20;0.08" dur="9s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
 
-    <path class="wave" d="M60 268C190 208 300 316 430 252C560 188 640 176 760 228C880 280 980 236 1140 158"
-          stroke="url(#wave)" stroke-width="4.5" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M60 268C190 208 300 316 430 252C560 188 640 176 760 228C880 280 980 236 1140 158"
+          stroke="url(#wave)" stroke-width="4.5" stroke-linecap="round"
+          stroke-dasharray="1800" stroke-dashoffset="0" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" from="1800" to="0" dur="4.5s" fill="freeze"/>
+    </path>
 
     <g fill="#38bdf8">
-      <circle class="dot" cx="640" cy="96"  r="3" opacity=".55"/>
-      <circle class="dot" cx="690" cy="60"  r="2" opacity=".40" style="animation-delay:-2s"/>
-      <circle class="dot" cx="600" cy="300" r="2.5" opacity=".45" style="animation-delay:-4s"/>
-      <circle class="dot" cx="1150" cy="250" r="3" opacity=".35" style="animation-delay:-1s"/>
-      <circle class="dot" cx="40"  cy="120" r="2.5" opacity=".40" style="animation-delay:-3s"/>
+      <circle cx="640" cy="96" r="3" opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="690" cy="60" r="2" opacity="0.40">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="7s" begin="-2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="300" r="2.5" opacity="0.45">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="6.5s" begin="-4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1150" cy="250" r="3" opacity="0.35">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="8s" begin="-1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="40" cy="120" r="2.5" opacity="0.40">
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="7.5s" begin="-3s" repeatCount="indefinite"/>
+      </circle>
     </g>
 
-    <!-- terminal card -->
-    <g class="in3">
+    <!-- terminal karti -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;1" dur="1.4s" fill="freeze"/>
       <rect x="700" y="62" width="452" height="216" rx="14" fill="#0f172a" fill-opacity="0.92" stroke="#1e293b"/>
       <rect x="700" y="62" width="452" height="34" rx="14" fill="#1e293b" fill-opacity="0.7"/>
       <rect x="700" y="86" width="452" height="10" fill="#1e293b" fill-opacity="0.7"/>
@@ -121,36 +105,67 @@
       <text x="784" y="84" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">ahmetonurevis — zsh</text>
 
       <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">
-        <text class="l1" x="722" y="128" fill="#e2e8f0"><tspan fill="#22c55e">$</tspan> npm run dev</text>
-        <text class="l2" x="722" y="156" fill="#94a3b8"><tspan fill="#22c55e">✔</tspan> api      ready on :4000</text>
-        <text class="l3" x="722" y="184" fill="#94a3b8"><tspan fill="#22c55e">✔</tspan> web      ready on :3000</text>
-        <text class="l4" x="722" y="212" fill="#94a3b8"><tspan fill="#22c55e">✔</tspan> iot      12 device online</text>
-        <text class="l5" x="722" y="246" fill="#67e8f9">→ hepsi hazır, kahve zamanı ☕</text>
+        <text x="722" y="128" fill="#e2e8f0" opacity="1">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.20;0.30" dur="5s" fill="freeze"/>
+          <tspan fill="#22c55e">$</tspan> npm run dev
+        </text>
+        <text x="722" y="156" fill="#94a3b8" opacity="1">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.38;0.48" dur="5s" fill="freeze"/>
+          <tspan fill="#22c55e">✔</tspan> api      ready on :4000
+        </text>
+        <text x="722" y="184" fill="#94a3b8" opacity="1">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.56;0.66" dur="5s" fill="freeze"/>
+          <tspan fill="#22c55e">✔</tspan> web      ready on :3000
+        </text>
+        <text x="722" y="212" fill="#94a3b8" opacity="1">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.72;0.82" dur="5s" fill="freeze"/>
+          <tspan fill="#22c55e">✔</tspan> iot      12 device online
+        </text>
+        <text x="722" y="246" fill="#67e8f9" opacity="1">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.88;0.98" dur="5s" fill="freeze"/>
+          → hepsi hazır, kahve zamanı ☕
+        </text>
       </g>
     </g>
 
-    <!-- left text block -->
+    <!-- sol metin blogu -->
     <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
-      <text class="in1" x="70" y="86" fill="#67e8f9" font-size="17" font-weight="700" letter-spacing="3.4"
-            font-family="ui-monospace, SFMono-Regular, Consolas, monospace">&#62; whoami</text>
+      <text x="70" y="86" fill="#67e8f9" font-size="17" font-weight="700" letter-spacing="3.4" opacity="1"
+            font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.15;1" dur="1s" fill="freeze"/>
+        &#62; whoami
+      </text>
 
-      <text class="in2" x="70" y="146" fill="#f8fafc" font-size="52" font-weight="800">Ahmet Onur EVİS</text>
+      <text x="70" y="146" fill="#f8fafc" font-size="52" font-weight="800" opacity="1">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.25;1" dur="1.2s" fill="freeze"/>
+        Ahmet Onur EVİS
+      </text>
 
       <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="21" fill="#cbd5e1">
-        <g clip-path="url(#typeA)"><text x="70" y="200">Full-Stack Developer<tspan class="cursor" fill="#38bdf8" font-weight="700">_</tspan></text></g>
-        <g clip-path="url(#typeB)"><text x="70" y="200">IT Operations Engineer<tspan class="cursor" fill="#a78bfa" font-weight="700">_</tspan></text></g>
-        <g clip-path="url(#typeC)"><text x="70" y="200">IoT &#38; Otomasyon Meraklısı<tspan class="cursor" fill="#22c55e" font-weight="700">_</tspan></text></g>
+        <g clip-path="url(#typeA)">
+          <text x="70" y="200">Full-Stack Developer<tspan fill="#38bdf8" font-weight="700">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+        </g>
+        <g clip-path="url(#typeB)">
+          <text x="70" y="200">IT Operations Engineer<tspan fill="#a78bfa" font-weight="700">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+        </g>
+        <g clip-path="url(#typeC)">
+          <text x="70" y="200">IoT &#38; Otomasyon Meraklısı<tspan fill="#22c55e" font-weight="700">_<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+        </g>
       </g>
 
-      <g class="in3">
-        <text x="70" y="240" fill="#64748b" font-size="16">TypeScript · Node.js · .NET · React &#38; Vue · PostgreSQL · ESP8266</text>
-        <rect x="70" y="262" width="248" height="38" rx="19" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.6"/>
-        <text x="94" y="287" fill="#e0f2fe" font-size="15" font-weight="700"
+      <g opacity="1">
+        <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;1" dur="1.4s" fill="freeze"/>
+        <text x="70" y="242" fill="#64748b" font-size="16">TypeScript · Node.js · .NET · React &#38; Vue · PostgreSQL · ESP8266</text>
+        <rect x="70" y="264" width="252" height="38" rx="19" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.6"/>
+        <text x="94" y="289" fill="#e0f2fe" font-size="15" font-weight="700"
               font-family="ui-monospace, SFMono-Regular, Consolas, monospace">github.com/ahmetonurevis</text>
       </g>
     </g>
 
-    <rect class="sheen" x="0" y="0" width="240" height="340" fill="url(#sheen)"/>
+    <rect x="0" y="0" width="240" height="340" fill="url(#sheen)" transform="translate(-260 0)">
+      <animateTransform attributeName="transform" type="translate" values="-260 0;1210 0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+
     <rect x="0.5" y="0.5" width="1199" height="339" rx="30" fill="none" stroke="#1e293b"/>
   </g>
 </svg>
