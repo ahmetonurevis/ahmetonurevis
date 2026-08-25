@@ -8,8 +8,8 @@
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ahmetonurevis&style=for-the-badge&color=0ea5e9&label=ZİYARETÇİ)
-[![Followers](https://img.shields.io/github/followers/ahmetonurevis?style=for-the-badge&logo=github&color=181717&label=TAKİPÇİ)](https://github.com/ahmetonurevis?tab=followers)
+![Profile Views](https://komarev.com/ghpvc/?username=ahmetonurevis&style=for-the-badge&color=0ea5e9&label=Z%C4%B0YARET%C3%87%C4%B0)
+[![Followers](https://img.shields.io/github/followers/ahmetonurevis?style=for-the-badge&logo=github&color=181717&label=TAK%C4%B0P%C3%87%C4%B0)](https://github.com/ahmetonurevis?tab=followers)
 [![Stars](https://img.shields.io/github/stars/ahmetonurevis?style=for-the-badge&logo=github&color=f59e0b&label=YILDIZ)](https://github.com/ahmetonurevis?tab=repositories)
 
 <br>
