@@ -197,19 +197,28 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A["🗣️ 1 · Problemi Anla<br>Kod değil, iş akışı konuşulur"]:::step
-    B["🗄️ 2 · Veriyi Modelle<br>Şema gerçek senaryoya göre kurulur"]:::step
-    C["🔐 3 · API'yi Kur<br>Güvenlik, validasyon, hata yönetimi baştan"]:::step
-    D["🎨 4 · Arayüzü Yaz<br>Sade, hızlı, kullanıcıyı yormayan"]:::step
-    E["🚀 5 · Yayına Al<br>Nginx + PM2, log ve izleme dahil"]:::step
-    F["📚 6 · Dokümante Et<br>Kurulum ve bakım da teslimatın parçası"]:::done
+    A["🗣️ 1<br>Problemi Anla"]:::step
+    B["🗄️ 2<br>Veriyi Modelle"]:::step
+    C["🔐 3<br>API'yi Kur"]:::step
+    D["🎨 4<br>Arayüzü Yaz"]:::step
+    E["🚀 5<br>Yayına Al"]:::step
+    F["📚 6<br>Dokümante Et"]:::done
 
     A --> B --> C --> D --> E --> F
-    F -.->|"geri bildirim geldi 🔁"| A
+    F -.->|"geri bildirim 🔁"| A
 
     classDef step fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e2e8f0
     classDef done fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#dcfce7
 ```
+
+| # | Adım | Ne yapıyorum |
+|---|---|---|
+| 1 | **Problemi Anla** | Kod değil, iş akışı konuşulur. Kimin hangi ekranda ne yaptığını çıkarırım. |
+| 2 | **Veriyi Modelle** | Şemayı ekrana göre değil, gerçek senaryoya göre kurarım. |
+| 3 | **API'yi Kur** | Güvenlik, validasyon ve hata yönetimi sonradan değil, baştan girer. |
+| 4 | **Arayüzü Yaz** | Sade, hızlı ve kullanıcıyı yormayan ekranlar. |
+| 5 | **Yayına Al** | Nginx + PM2, log ve izleme kurulumuyla birlikte. |
+| 6 | **Dokümante Et** | Kurulum ve bakım da teslimatın parçası. |
 
 > 💡 **Sırrı yok:** adım 1'de harcanan 30 dakika, adım 5'te 3 günü kurtarıyor.
 
@@ -249,20 +258,7 @@ flowchart LR
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=ahmetonurevis&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=tr)
 
-<br>
-
-![Aktivite Grafiği](https://github-readme-activity-graph.vercel.app/graph?username=ahmetonurevis&theme=tokyo-night&hide_border=true&area=true&custom_title=Son%20Bir%20Y%C4%B1l%C4%B1n%20Ritmi)
-
 </div>
-
-<details align="center">
-<summary><b>🏆 Kupa dolabını aç</b></summary>
-
-<br>
-
-[![Kupalar](https://github-profile-trophy.vercel.app/?username=ahmetonurevis&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</details>
 
 ### 🐍 Yılan katkılarımı yiyor
 
@@ -281,17 +277,6 @@ flowchart LR
 ---
 
 ## 📌 Vitrin
-
-<div align="center">
-
-<a href="https://github.com/ahmetonurevis/AbbaraShowroom">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ahmetonurevis&repo=AbbaraShowroom&theme=tokyonight&hide_border=true" alt="AbbaraShowroom" width="49%">
-</a>
-<a href="https://github.com/ahmetonurevis/SignalRProject">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ahmetonurevis&repo=SignalRProject&theme=tokyonight&hide_border=true" alt="SignalRProject" width="49%">
-</a>
-
-</div>
 
 | Proje | Ne yapıyor? | Yığın |
 |---|---|---|
