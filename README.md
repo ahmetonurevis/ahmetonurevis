@@ -85,25 +85,11 @@ flowchart LR
     ME --> OPS["🛠️ Ops & Altyapı"]:::ops
     ME --> IOT["🔌 IoT & Donanım"]:::iot
 
-    BE  --> BE1["Node.js · Express"]:::leaf
-    BE  --> BE2["ASP.NET Core / MVC"]:::leaf
-    BE  --> BE3["REST API · Swagger"]:::leaf
-
-    FE  --> FE1["Next.js · React"]:::leaf
-    FE  --> FE2["Vue 3"]:::leaf
-    FE  --> FE3["Tailwind · SCSS"]:::leaf
-
-    DB  --> DB1["PostgreSQL · Prisma"]:::leaf
-    DB  --> DB2["SQL Server · EF Core"]:::leaf
-    DB  --> DB3["Redis"]:::leaf
-
-    OPS --> OP1["Nginx · PM2"]:::leaf
-    OPS --> OP2["Git · GitHub Actions"]:::leaf
-    OPS --> OP3["Linux · Windows Server"]:::leaf
-
-    IOT --> IO1["ESP8266 · Arduino"]:::leaf
-    IOT --> IO2["C++ · Seri Haberleşme"]:::leaf
-    IOT --> IO3["Capacitor · Android"]:::leaf
+    BE  --> BEX["Node.js · Express<br>ASP.NET Core / MVC<br>REST API · Swagger · SignalR"]:::leaf
+    FE  --> FEX["Next.js · React · Vue 3<br>Tailwind CSS · SCSS<br>Razor Views · Capacitor"]:::leaf
+    DB  --> DBX["PostgreSQL · Prisma<br>SQL Server · EF Core<br>Redis"]:::leaf
+    OPS --> OPX["Nginx · PM2<br>Git · GitHub Actions<br>Linux · Windows Server"]:::leaf
+    IOT --> IOX["ESP8266 · Arduino<br>C++ · Seri Haberleşme<br>Sensör → Panel veri akışı"]:::leaf
 
     classDef core fill:#0ea5e9,stroke:#38bdf8,stroke-width:3px,color:#fff,font-weight:bold
     classDef be   fill:#166534,stroke:#22c55e,color:#fff,font-weight:bold
@@ -210,7 +196,7 @@ flowchart LR
 ## 🔄 Bir Proje Bende Nasıl İlerler?
 
 ```mermaid
-flowchart TD
+flowchart LR
     A["🗣️ 1 · Problemi Anla<br>Kod değil, iş akışı konuşulur"]:::step
     B["🗄️ 2 · Veriyi Modelle<br>Şema gerçek senaryoya göre kurulur"]:::step
     C["🔐 3 · API'yi Kur<br>Güvenlik, validasyon, hata yönetimi baştan"]:::step
